@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Encode Sans','Open Sans', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#4b2e83;
+  color:white;
+
+}
+.no-work{
+  background: rgba(244, 204, 204,.7);
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 100%;
+  color: darkred;
+  border-radius: 20px;
+}
+.warning{
+  color:red;
+}
+
+.printer-wrapper {
+ border-radius: 20px;
+ z-index:-100;
+ width:100%;
+ position: absolute;
+}
+
+li {
+  overflow: hidden;
+  float: left;
+}
+
+.card-img-top{
+  width:5rem;
+
+}
+.card-img-wrapper{
+  text-align: center;
+}
+.card-body{
+  padding:0;
+}
+.percent{
+  font-weight: bold;
+  font-style:italic;
+}
+.status{
+  color:#38761d;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.printer{
+  z-index:-200
+}
+.card-img-top{
+  padding-top:30px;
+}
+.card {
+  margin-top: 50px;
+  border: 1px solid #999;
+  text-align: center;
+  height: 20rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color:#000000;
+  background-color: transparent;
+  border-radius: 20px;
+  }
+
+  .card:before {
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    font-size: 28px;
+    font-style: normal;
+    left: 50%;
+    line-height: 60px;
+    position: absolute;
+    top: -30px;
+    width: 60px;
+  }
+.printTitle{
+  font-size: 2rem;
+  font-weight: bold;
+  color:#705503;
+}
+h1{
+  text-align: center
+}
+.logo_div{
+  text-align:center;
+}
+.logo{
+  height:5rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+#overlay{
+  position: fixed; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2000; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
